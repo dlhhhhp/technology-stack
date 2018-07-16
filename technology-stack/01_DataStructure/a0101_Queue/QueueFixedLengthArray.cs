@@ -68,6 +68,10 @@ namespace a0101_Queue
             return _head == _tail;
         }
 
+        /// <summary>
+        /// 扩容数组长度时有问题：当第一次数组填满时，队尾索引回置到0，扩展数组成功但是队尾索引值不对
+        /// </summary>
+        /// <returns></returns>
         public bool DoubleQueueSize()
         {
             if (_size < (int)(int.MaxValue / 2))
