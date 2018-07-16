@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_DataStructure", "01_DataStructure", "{452C98DE-70DA-4380-ABB6-B2075DF7540A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a0101_Queue", "01_DataStructure\a0101_Queue\a0101_Queue.csproj", "{535C413D-5CF3-4872-9422-8DDA33A78DEB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535C413D-5CF3-4872-9422-8DDA33A78DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535C413D-5CF3-4872-9422-8DDA33A78DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535C413D-5CF3-4872-9422-8DDA33A78DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535C413D-5CF3-4872-9422-8DDA33A78DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{535C413D-5CF3-4872-9422-8DDA33A78DEB} = {452C98DE-70DA-4380-ABB6-B2075DF7540A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0CDE7E0-EAD2-4310-B33F-AF41396A2A21}
