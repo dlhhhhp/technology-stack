@@ -19,7 +19,7 @@ namespace a0101_Queue
                         while (outOne)
                         {
                             Console.WriteLine("定长环形数组：" + arrayOne.PrintQueue());
-                            Console.WriteLine("请选择操作：1.入队 2.出队 3.翻倍队列 0.退出");
+                            Console.WriteLine("请选择操作：1.入队 2.出队 0.退出");
                             switch (Console.ReadLine())
                             {
                                 case "1":
@@ -27,9 +27,6 @@ namespace a0101_Queue
                                     break;
                                 case "2":
                                     arrayOne.Dequeue();
-                                    break;
-                                case "3":
-                                    arrayOne.DoubleQueueSize();
                                     break;
                                 case "0":
                                     outOne = false;
